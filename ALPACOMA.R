@@ -24,7 +24,7 @@ ALP_2023$ws <- as.numeric(ALP_2023$ws)
 ALP_2023$wd <- as.numeric(ALP_2023$wd)
 str(ALP_2023)
 # ------------------------------------------------------------------------------
-# ------------------ 6) GRAFICOS ELABORADOS CON OPENAIR  -----------------------
+# ------------------ 2) GRAFICOS ELABORADOS CON OPENAIR  -----------------------
 # ------------------------------------------------------------------------------
 trendLevel(ALP_2023, pollutant = "ws") #velocidad del viento
 trendLevel(ALP_2023, pollutant = "wd") #direccion del viento
